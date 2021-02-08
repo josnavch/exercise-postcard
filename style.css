@@ -19,18 +19,48 @@ body{
     border-style: solid;
     border-color: mediumorchid;
     flex: 70%;
+    height: 50px;
     padding: 5px;
+
 }
 
 .div_image{
     border-style: solid;
     border-color: mediumorchid;
     flex: 20%;
+    height: 50px;
     padding: 5px;
+    align-content: center;
+    text-align: center;
 }
 
 .div_barra_titulo{
     border-style: solid;
     border-color: yellowgreen;
     display: flex;
+}
+
+.div_content{
+    border-style: solid;
+    border-color:  red;
+    display: flex;
+   
+}
+
+.div_content_text {
+    border-style: solid;
+    border-color: blue;
+    width: 200px;
+    height: 150px;
+    overflow: visible;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.div_content_input  {
+    border-style: solid;
+    border-color:  brown;
+    height: 100px;
+    padding: 5px;
+    float: left;
 }
